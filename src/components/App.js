@@ -28,10 +28,10 @@ function App() {
             onAnswered={handleQuestionAnswered}
           />
         ) : (
-          <>
+          <React.Fragment>
             <h1>Game Over</h1>
             <h2>Total Correct: {score}</h2>
-          </>
+          </React.Fragment>
         )}
       </section>
     </main>
